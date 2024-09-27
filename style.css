@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(167, 167, 225);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputText {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+.addBtn {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(95, 167, 207);
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+.toDoList_content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.toDoList_paragraph {
+  width: 400px;
+  p {
+    display: inline-block;
+  }
+}
+
+.toDoList {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(235, 233, 233);
+   margin: 10px 0;
+   padding: 0 10px;
+   height: 40px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.deleteBtn {
+  width: 55px;
+  height: 20px;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
